@@ -1,0 +1,21 @@
+milestone2 progress:
+
+1. Runtime Save / Load: 	We were able to save and load files from the graphics interface. We created an option to 
+							replace files that already exist or create brand new ones
+
+2. User Editable Chromosome:By clicking on the squares in the chromosome viewer, we were able to change the value of
+							the individual genes. This was then displayed by a change in the color of the square representing
+							the genes.
+							
+3. Random Population: 		We are able to create a random population of 100 chromosomes, using a default chromosome constructor.
+
+4. Fitness Function:        The fitness function creates a score from 0-100 for each chromosome based on the number of 1s for the
+							genes.
+							
+5. Evolutionary Loop:		Were were able to generate, sort, and kill the bottom 50% of the generation. We then created random
+							genes to fill the empty gene slots.
+							
+6. Evolution GUI: 			We created the evolution GUI that allows the viewer to see the best, average, and worst chromosomes of a 
+							population over many generations and how their fitness score changes over time. All of the options for
+							controlling the simulator are able to be controlled through buttons and drop downs on the evolution viewer.
+							The graph updates during execution. There is a toggle start and stop, as well as a reset button in addition.

@@ -1,0 +1,28 @@
+milestone3 progress:
+
+1. More Fitness Functions:	We added 4 more fitness functions in addition to the fitness function we already had which creates 
+							a score for the chromosome based on the number of 1s for the genes. We added a countNumOf0s function 
+							which works the same way as countNumOf1s but counts 0s instead of 1s. We added the fitness functions
+							maxConsec1s and maxConces0s which counts the number of consecutive 1s and 0s respectively. Finally we 
+							added a matchTarget fitness functions that evaluates the fitness of a chromosome based on how close it
+							is to the ideal chromosome.
+							
+2. Selection Type Addition:	In addition to the selection type "truncation" which we already implemented, we successfully implemented
+							the roulette wheel selection type. The fittest chromosomes are given the greatest probability for survival 
+							when passing on genes. In the drop down menu on the evolution viewer, the user can switch between truncation
+							and roulette wheel selection.
+							
+3. Elitism: 				The user at runtime can choose to include elitism. Here, an expressed percent of the fittest chromosomes in
+							the population are copied to the next generation. We fully implemented elitism.
+							
+4. Crossover:				We noticed when doing test trials that the addition of crossover significantly speeds up the process of
+							improving fitness than without crossover. The user can choose to implement this single point crossover at
+							runtime on the evolution viewer.
+							
+5. Visualize the fittest:	SPECIAL FEATURE: We included a button to choose to see the fittest chromosome in the population or not
+							at runtime. By clicking this button and choosing the see the fittest chromosome, the person can view the 
+							fittest chromosome as the evolution viewer runs at the same time.
+							
+6. Terminate Condition: 	The user can enter the score at runtime that will cause the viewer to stop when the score is reached. 
+
+

@@ -1,0 +1,12 @@
+milestone1 progress:
+
+1. Load Files: .txt files with any given sequence of 0s and 1s can be loaded from the main GeneticAlgorithm class, 
+				by calling the readChromosome(String filename) method. Currently, testChromosome1 has size 20,
+				testChromosome2 has size 100.
+
+2. Visualize: 	A chromosome represented in a given .txt file can be visualized from the main GeneticAlgorithm class,
+				by calling the viewChromosome(String filename) method.
+				
+3. Mutate:		When the viewChromosome(String filename) method is called, the displayed JFrame has a Mutate button and
+				a text field where the user can specify a mutation rate. Enter the desired mutation rate, press enter,
+				and click the mutation button.

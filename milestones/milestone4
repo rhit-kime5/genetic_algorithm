@@ -1,0 +1,35 @@
+milestone4 progress:
+
+1. Measure Diversity:	We added the hamming distance to the evolution viewer to allow the user to see the measure of diversity
+						of the population over the generations.
+						
+2. Visualize Population:We added the generation viewer which allows the user to see how every chromosome in the population and its 
+						genes change over time. The user can also see the fitest chromosome in the population.
+
+
+extra features:
+
+1. Display toggles:		The viewer can choose to see the diversity line on the graph (the hamming distance), the best individual
+						in the population (chromosome viewer), and the overall population (generation viewer). By having the 
+						option to see the different viewers or the graph line, the user can speed up how fast the program 
+						runs since less viewers will be used. This is effective for speeding up how fast the program runs. We can
+						switch off the toggles after running the program with them on. After running the program, one can choose
+						to not see the graphs or not. We recommend not using the hamming distance unless necessary as it slows down 
+						the program.
+						
+2. Scaling graphs:		We added the option to view the evolutionary process over more generations than a 1000. To do this, we
+						implemented the changing x axis for the graph that will adjust over time. The final length will be the 
+						number of generations specified by the user. 
+						
+3. Evolutionary Delay:	The evolutionary delay is essentially the speed of the evolution. The user can speed up the evolution or 
+						slow it down based on their objective. We added this text-box to the evolution viewer.
+						
+4. Reset Button: 		This button on the evolution viewer resets the entire program so the user can run the simulator multiple
+						times without having to reset the program itself. This check box was added to the evolutionary viewer and
+						can work at runtime or execution.
+						
+5. Console Outputs:		The console outputs show very clearly how the evolution proceeds and the settings (number of crossovers 
+						complete, truncation / roulette wheel, number of elite children created, current generation number, current
+						fitness type) of the simulator.
+
+
